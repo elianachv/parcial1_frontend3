@@ -1,0 +1,57 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  margin: 0px;
+  border-radius: 5px;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+}
+
+form input {
+  margin-bottom: 20px;
+  width: 300px;
+  height: 30px;
+  border: solid teal 2px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+form label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.buttons {
+  display: flex;
+}
+
+form button {
+  margin: 5px;
+  border: cadetblue solid 1px;
+  background-color: cadetblue;
+  width: 150px;
+}
+
+.errors {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.errors p {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.errors .error {
+  color: red;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.note {
+  margin-top: 30px;
+  font-size: 18px;
+}
